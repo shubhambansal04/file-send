@@ -3,7 +3,7 @@ import threading
 import base64
 import time
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.bind(("192.168.1.100",2021))
+s.bind(("https://git.heroku.com/mysterious-plateau-17836.git",3000))
 s.listen(100000000)
 k=[]
 p=[]
